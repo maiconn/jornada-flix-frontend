@@ -1,0 +1,72 @@
+
+
+.formularioPrimeiraPaginaCadastro {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(2, 2, 2, 0.767);
+  margin: 2%;
+  color: white;
+  padding: 15px;
+  border-radius: 13px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+    
+  }
+
+  input {
+    margin: .4rem;
+  }
+
+
+#avancar {
+    width: 434px;
+    height: 63px;
+    transition: .3s ease all;
+    background-color: #D21111;
+    color: #FFFFFF;
+    font: Montserrat;
+    font-size: 20px;
+    font-style: regular;
+    line-height: 24px;
+    letter-spacing: -1.5%;
+    border-radius: 10px;
+    margin: .4rem;
+  }
+  
+  #avancar:hover{
+    background-color: gray;
+  }
+
+  #root {
+    background-color: white;
+
+  }
+
+  .CabecalhoPrimeiraPaginaCadastro {
+    background-color: black;
+    opacity:  0.9;
+    width: 100%;
+
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .sair {
+    align-self: flex-end;
+
+  }
+
+  h3 {
+    float: right;
+    width: 150px;
+    height: 54px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+    display: inline;
+    color: white;
+  }

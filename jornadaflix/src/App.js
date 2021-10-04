@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import PaginaCadastro from './Paginas/PaginaCadastro.jsx'
+import PaginaInicial from './Paginas/PaginaInicial.jsx'
+import PrimeiraPaginaCadastro from './Paginas/PrimeiraPaginaCadastro.jsx'
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main>
+      <PrimeiraPaginaCadastro />
+    </main>
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,105 @@
+#nome, #email, #registrar, #senha {
+    width: 434px;
+    height: 63px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  #registrar {
+    background-color: #D21111;
+    color: #FFFFFF;
+    font: Montserrat;
+    font-size: 20px;
+    font-style: regular;
+    line-height: 24px;
+    letter-spacing: -1.5%;
+    border-radius: 13px;
+    transition: .3s ease;
+  }
+  
+  #registrar:hover {
+      background-color: white;
+      color: black;
+  }
+  
+  header .container {
+    background-color: black;
+    opacity:  0.9;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+      display: flex;
+      max-width:200px;
+      max-height:150px;
+      width: auto;
+      height: auto;
+  }
+  
+  #root {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('./imagemFundo.jpg');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 2, 2, 0.767);
+    position: relative;
+  }
+  
+  input {
+    margin: .4rem;
+  }
+
+  #formulario {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .formContainer {
+    background-color: rgba(2, 2, 2, 0.767);
+    margin: 2%;
+    color: white;
+    padding: 15px;
+    border-radius: 13px;
+    height: none;
+    width: none;
+  }
+  
+  h3 {
+    float: right;
+    width: 150px;
+    height: 54px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+    display: inline;
+    color: white;
+  }
+  
+  main .fundo {
+    opacity: 0.5;
+    position: absolute;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  .sair {
+    transition: .3s ease all;
+  }
+  
+  .sair:hover{
+    color: gray;
+  }
